@@ -1,0 +1,107 @@
+/* 메뉴 */
+
+.menu {
+    display: none;
+}
+
+.menu.on {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.menu .area {
+    position: relative;
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.menu .cancel {
+    position: absolute;
+    color: var(--white-text);
+    font-size: 60px;
+    padding-top: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+
+/* 메뉴 텍스트 */
+
+.menu ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.menu ul li {
+    margin: 40px 0;
+}
+
+.menu ul li a {
+    color: var(--white-text);
+    /* font-size: 150px; */
+    font-size: 7.813vw;
+    font-weight: 700;
+}
+
+.menu ul li a:hover {
+    color: #555555;
+}
+
+@media screen and (min-width: 768px) {
+    .menu ul li a {
+        font-size: 100px;
+    }
+    .menu .cancel {
+        top: 0;
+        right: 0;
+        padding-top: 32px;
+        padding-right: 35px;
+    }
+}
+
+
+/* 각 section 메뉴버튼 */
+.btn {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    padding-top: 32px;
+    padding-right: 40px;
+
+    color: var(--white-text);
+    font-size: 48px;
+
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.btn.on {
+    display: none;
+}
+
+
+.menuline {
+    position: absolute;
+    top: 140px;
+    left: 40px;
+    width: 90px;
+    height: 3px;
+    background-color: whitesmoke;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.menuline:hover {
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}

@@ -1,0 +1,75 @@
+/* contact */
+
+.contact {
+    /* width: 100%; */
+    /* height: auto; */
+    background-color: #8bcdcd;
+    background-color: #000;
+    background-image: url(../img/contact.jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+
+.contact .area {
+    position: relative;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border: 0px solid blue;
+}
+
+.contact p {
+    color: var(--white-text);
+    font-family: var(--DM-font);
+    font-size: 14px;
+    padding: 8px;
+}
+
+.contact .nav p {
+    text-align: center;
+    font-size: 10px;
+    line-height: 4;
+}
+
+.contact .nav span {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+
+.contact .nav a {
+    color: var(--white-text);
+    font-family: var(--pan-font);
+    font-size: 24px;
+    letter-spacing: 0.1em;
+
+    transition: all 0.3s;
+}
+
+.contact .nav a:hover {
+    color: var(--light-gray);
+}
+
+.contact .sns ul {
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 20px;
+}
+
+.contact .sns a {
+    color: var(--white-text);
+    font-size: 24px;
+    padding: 10px 20px;
+}
+
+.contact .copy p {
+    font-size: 12px;
+    padding: 30px;
+
+}

@@ -1,0 +1,100 @@
+
+/* work */
+
+.work {
+    width: 100%;
+    height: 100vh;
+    background-color: #faf0af;
+    background-color: var(--black2);
+}
+
+.work .area {
+    position: relative;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.work h1 {
+    position: absolute;
+
+    margin-top: 40px;
+    margin-left: 40px;
+
+    font-size: 60px;
+    font-family: var(--pan-font);
+    color: var(--white-text);
+}
+
+/* .work .btn {
+    color: var(--black-text);
+} */
+
+.work .card {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 200px;
+    /* margin-left: -460px; */
+    text-align: center;
+}
+
+.work .card img {
+    width: 800px;
+    margin: 0 auto;
+    height: 60vh;
+    box-shadow: -1px -1px 10px 3px #000000;
+
+    background-position: center;
+}
+
+.work .card a {
+    margin: 0 20px;
+    margin-top: 20px;
+    color: var(--white-text);
+    font-size: 40px;
+
+    transition: all 0.3s;
+}
+
+.work .card a:hover {
+    color: var(--black-text);
+    color: #000;
+}
+
+
+/* owl Library */
+.owl-theme .owl-nav {
+    margin-top: 0;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+
+    color: var(--white-text);
+    outline: none;
+    font-size: 120px;
+    border: 0px solid green;
+}
+
+
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+
+    outline: none;
+    color: var(--white-text);
+    font-size: 120px;
+    border: 0px solid purple;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: none;
+    color: var(--black-text);
+    color: #000;
+    text-decoration: none;
+  }
