@@ -33,13 +33,32 @@
 /* font-family: 'Permanent Marker', cursive; */
 
 
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,900&family=Noto+Sans+KR:wght@400;500;700;900&family=Roboto:wght@400;700&display=swap');
+/* 
+font-family: 'Mulish', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+@import url('//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css');
+/* font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; */
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;600;700;800;900&display=swap');
+/* font-family: 'Gothic A1', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+
+
 /* 배경 컬러 */
 
 :root {
     /* --bg-color: #0F0023; */
     --dark-blue: #2a363b;
     --light-red: #ff5f5f;
-    --grey-white: #f8f8f8;
+    --white: #f8f8f8;
+    --grey: #f5f5f9;
     --orange: #fcbf1e;
     --black: #222222;
     --black2: #333333;
@@ -53,6 +72,7 @@
 :root {
     --white-text: #F5F5F5;
     --black-text: #222831;
+    --black2-text: #222222;
 }
 
 
@@ -65,6 +85,10 @@
     --kor-font: 'NanumSquareRound', sans-serif;
     --DM-font: 'DM Sans', sans-serif;
     --boot-font: 'Permanent Marker', cursive;
+    --han-font: 'Spoqa Han Sans', sans-serif;
+    --a1-font: 'Gothic A1', sans-serif;
+    --pop-font: 'Poppins', sans-serif;  /* 한글 */
+
 }
 
 *,
@@ -73,6 +97,7 @@ html {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 ul,

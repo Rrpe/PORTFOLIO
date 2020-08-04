@@ -5,7 +5,7 @@
     width: 100%;
     height: 100vh;
     background-color: #f1c5c5;
-    background-color: var(--black);
+    background-color: var(--grey);
 }
 
 .about .area {
@@ -23,11 +23,11 @@
 .about .left {
     flex: 1;
 
-    color: var(--white-text);
+    color: var(--black2-text);
 }
 
 .about .left .account {
-    margin: 240px 40px 40px 40px;
+    margin: 180px 40px 40px 40px;
 }
 
 .about .left .skills {
@@ -45,6 +45,10 @@
 }
 
 .left h2 {
+    margin-bottom: 20px;
+}
+
+.left h2 {
     font-size: 30px;
     font-family: var(--kor-font);
     letter-spacing: 0.01em;
@@ -55,9 +59,22 @@
 
     font-size: 14px;
     font-weight: 700;
-    line-height: 1.8;
+    line-height: 1.4;
     font-family: var(--kor-font);
     letter-spacing: 0.1em;
+}
+
+.left .skills i {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.left .skills .skill_box {
+    display: none;
+}
+
+.left .skills .minus {
+    display: none;
 }
 
 /* right */
@@ -65,18 +82,18 @@
     flex: 1;
 
     text-align: right;
-    color: var(--white-text);
+    color: var(--black2-text);
     border: 0px solid blue;
 }
 
 .right > div, .right > span {
-    margin: 240px 40px 40px 40px;
+    margin: 180px 40px 40px 40px;
 }
 
 .right .profile {
     display: inline-block;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
 
     background-image: url(../img/exprofile.jpg);
     background-size: cover;
@@ -85,12 +102,8 @@
     border: 0;
 }
 
-.right .hist {
+.right .hist, .right .hobby {
     margin-top: 20px;
-}
-
-.right .hobby {
-    margin-top: 40px;
 }
 
 .right h2 {
@@ -100,11 +113,16 @@
 }
 
 .right p {
-    margin: 5px 10px 10px 10px;
+    margin: 3px 10px;
 
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
-    line-height: 1.8;
+    line-height: 1.3;
     font-family: var(--kor-font);
     letter-spacing: 0.1em;
+}
+
+
+.about .btn {
+    color: var(--black2-text);
 }
